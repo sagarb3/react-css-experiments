@@ -1151,6 +1151,11 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@css-modules-theme/core@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@css-modules-theme/core/-/core-2.2.0.tgz#f63c2300b2c2e5f93215a072fb89aa1027bb7a15"
+  integrity sha512-Bs/6m3OS+N2vxilUxpN3kTFdRMI/8c7McwyjNA5WkQEONyRoUWqibuVYLutCuOK0cpJZv73RmJ/GcBEjTlhqxg==
+
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"

@@ -1,0 +1,15 @@
+.red {
+  color:white;
+  background-color: red;
+}
+.large {
+    width : 100%;
+}
+.small {
+    max-width: 100px;
+    width:100%;
+}
+.medium {
+    max-width:200px;
+    width:100%
+}
