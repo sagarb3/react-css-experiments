@@ -1,5 +1,5 @@
 import './App.css';
-import { Button,SampleComponent } from './components';
+import { Button,SampleComponent, SampleComponent2 } from './components';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         Press Me
        </Button>
        <SampleComponent/>
+       <SampleComponent2/>
     </div>
   );
 }
