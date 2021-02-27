@@ -4,6 +4,7 @@
   }
   .large {
       width : 100%;
+      max-width: 300px;
   }
   .small {
       max-width: 100px;
@@ -12,4 +13,8 @@
   .medium {
       max-width:200px;
       width:100%
+  }
+  .green {
+      background-color: green;
+      color:white;
   }

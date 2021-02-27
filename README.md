@@ -31,6 +31,8 @@
 - The bit repo is also installed to demonstrate the css-style capability in the SampleComponent2 
 - You can test SampleComponent and SampleComponent2 style differences by first looking making a change in the ButtonStyled css files and seeing it's behaviour in Samplecomponent and then pushing the changes to the bit repo from where the SampleComponent2 is inherting it.
 - Test Cases Missing in the current Project
+- The Bit.dev version is not-updated to latest to show the difference between the local styled component and the bit available component and I am picking the style from SampleComponent2 from the bit.dev and from the local export in the SampleComponent
+
 
 ## Css Modules
 

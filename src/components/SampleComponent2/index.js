@@ -5,7 +5,7 @@ const SampleComponent2 = (props)=>{
     return (
         <div>
             <h1 className={h1Style}>SampleComponet2</h1>
-           <button className={btStyle}></button> 
+           <button className={btStyle}>Hi</button> 
         </div>
     )
 }
