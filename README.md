@@ -28,7 +28,7 @@
 
 ## Bit Dev Setup
 
-- Please follow the bit dev setup guideline on the official link of bt.dev
+- Please follow the bit dev setup guideline on the official link of bit.dev
 - All components inside the ```src/components``` are tracked
 - When new changes in component is made it is pushed to the bit repo
 - The bit repo is also installed to demonstrate the css-style capability in the SampleComponent2 
