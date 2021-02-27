@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# React CSS Helper
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [React CSS Helper](#react-css-helper)
+  - [Project Structure](#project-structure)
+    - [Project made using simple create-react-app](#project-made-using-simple-create-react-app)
+  - [Bit Dev Setup](#bit-dev-setup)
+  - [Css Modules](#css-modules)
+    - [Button Component using plain css module](#button-component-using-plain-css-module)
+    - [Button Styled Component Pure Style Component exporting style](#button-styled-component-pure-style-component-exporting-style)
+      - [Pure css components for style](#pure-css-components-for-style)
+    - [Usage of Button Styled Component in the Sample Component](#usage-of-button-styled-component-in-the-sample-component)
+    - [Usage of Button Styled Component after being pushed to bit.dev](#usage-of-button-styled-component-after-being-pushed-to-bitdev)
+  - [Future Task](#future-task)
 
-## Available Scripts
+## Project Structure
 
-In the project directory, you can run:
+### Project made using simple create-react-app
 
-### `yarn start`
+- App.js is the root of the Project
+- Components folder ```src/components/*``` houses all the components
+- All Components have a index.js from which the default function is exported
+- The root components folder has ```index.js``` file which exports all the public members of the various components
+- execute ```npm start``` to start the project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Bit Dev Setup
 
-### `yarn test`
+- Please follow the bit dev setup guideline on the official link of bt.dev
+- All components inside the ```src/components``` are tracked
+- When new changes in component is made it is pushed to the bit repo
+- The bit repo is also installed to demonstrate the css-style capability in the SampleComponent2 
+- You can test SampleComponent and SampleComponent2 style differences by first looking making a change in the ButtonStyled css files and seeing it's behaviour in Samplecomponent and then pushing the changes to the bit repo from where the SampleComponent2 is inherting it.
+- Test Cases Missing in the current Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Css Modules
 
-### `yarn build`
+### Button Component using plain css module
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Button Styled Component Pure Style Component exporting style
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Pure css components for style
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Usage of Button Styled Component in the Sample Component
 
-### `yarn eject`
+### Usage of Button Styled Component after being pushed to bit.dev
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Future Task
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ] Theme Support
+- [ ] Interoperable style setup (Web,Native)
+- [ ] Supporting any css style
+- [ ] React Native Support
+- [ ] Babel plugin reeact-css-integration
+  
