@@ -21,6 +21,9 @@
 - All Components have a index.js from which the default function is exported
 - The root components folder has ```index.js``` file which exports all the public members of the various components
 - execute ```npm start``` to start the project
+- to run the project git clone the project
+- run ```npm i```
+
 
 
 ## Bit Dev Setup
