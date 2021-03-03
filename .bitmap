@@ -67,5 +67,18 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "sample-component2": {
+        "files": [
+            {
+                "relativePath": "src/components/SampleComponent2/index.js",
+                "test": false,
+                "name": "index.js"
+            }
+        ],
+        "mainFile": "src/components/SampleComponent2/index.js",
+        "trackDir": "src/components/SampleComponent2",
+        "origin": "AUTHORED",
+        "exported": false
+    },
     "version": "14.8.8"
 }
